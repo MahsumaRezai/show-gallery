@@ -15,7 +15,7 @@ function puse() {
     window.clearTimeout(time)
 }
 function start() {
-    show()
+    show();
 }
 
 
