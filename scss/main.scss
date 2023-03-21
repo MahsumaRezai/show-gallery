@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    border: 1px solid yellow;
+    height: 500px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    margin-top: 150px;
+}
+.slider {
+    height: 300px;
+} 
+.image-small {
+    height: 100px;
+    background: plum;
+    
+}
