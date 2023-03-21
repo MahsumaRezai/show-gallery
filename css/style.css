@@ -6,7 +6,6 @@
 .container {
   width: 600px;
   border: 1px solid yellow;
-  height: 500px;
   background: lightblue;
   display: flex;
   flex-direction: column;
@@ -20,4 +19,14 @@
 
 .image-small {
   height: 100px;
-  background: plum; }
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: gold;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.image-small img {
+  width: 100px;
+  height: 80px; }

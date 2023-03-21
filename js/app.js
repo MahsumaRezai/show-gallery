@@ -1,13 +1,1 @@
-function data() {
-    let name = window.document.getElementsByClassName("post");
-    for (let x = 0; x < name.length; x++) {
-        if (name[x].value == "") {
-            name[x].style.backgroundColor = "purple";
-        }
-        else {
-            name[x].style.backgroundColor = "white"
-
-        }
-    }
-}
-
+let image = new Array("./imag/image_one.jpg", "./imag/image_two.jpg", "./imag/image_four.jpg", "./imag/three.jpeg", "./imag/image_four.jpg");
