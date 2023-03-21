@@ -5,15 +5,16 @@
 }
 .container {
     width: 600px;
-    border: 1px solid darkcyan;
-    background: lightblue;
+    border: 10px solid darkcyan;
+    background: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0% auto;
     margin-top: 150px;
-    box-shadow: 10px 10px 10px 10px gainsboro;
+    box-shadow: 20px 20px 20px 20px  gainsboro;
+    border-radius: 10px
 
 }
 .slider {
@@ -26,6 +27,9 @@
 .slider img {
     width: 550px;
     height: 380px;
+    border-radius: 10px
+
+    
 } 
 .image-small {
     height: 100px;
@@ -44,5 +48,8 @@
 .image-small img {
     width: 100px;
     height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
 
 }
