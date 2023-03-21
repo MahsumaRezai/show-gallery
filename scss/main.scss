@@ -5,7 +5,7 @@
 }
 .container {
     width: 600px;
-    border: 1px solid yellow;
+    border: 1px solid darkcyan;
     background: lightblue;
     display: flex;
     flex-direction: column;
@@ -13,16 +13,26 @@
     align-items: center;
     margin: 0% auto;
     margin-top: 150px;
+    box-shadow: 10px 10px 10px 10px gainsboro;
+
 }
 .slider {
-    height: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.slider img {
+    width: 550px;
+    height: 380px;
 } 
 .image-small {
     height: 100px;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    background:gold;
+    background:darkcyan;
     width: 100%;
     justify-content: center;
     align-items: center;
